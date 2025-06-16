@@ -1,13 +1,9 @@
-describe('Add to Cart Tests', () = {
-  beforeEach(() = {
-    cy.visit('httpswww.saucedemo.com');
-    cy.get('[data-test=username]').type('standard_user');
-    cy.get('[data-test=password]').type('secret_sauce');
-    cy.get('[data-test=login-button]').click();
-  });
+# SauceDemo QA Engineer Assessment 🚀
 
-  it('should add a product to the cart', () = {
-    cy.get('[data-test=add-to-cart-sauce-labs-backpack]').click();
-    cy.get('.shopping_cart_badge').should('contain', '1');
-  });
-});
+This project contains UI and API test automation for the [Saucedemo E-commerce Demo App](https://www.saucedemo.com).  
+It was completed as part of a QA Engineer technical assessment.
+
+---
+
+## 📁 Project Structure
+
